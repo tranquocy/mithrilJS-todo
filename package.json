@@ -1,0 +1,15 @@
+{
+  "name": "todo-mvc",
+  "scripts": {
+    "start": "webpack serve ./app.js --output-path ./dist/ --mode development"
+  },
+  "dependencies": {
+    "@babel/core": "^7.13.10",
+    "@babel/preset-env": "^7.13.10",
+    "babel-loader": "^8.2.2",
+    "mithril": "^2.0.4",
+    "webpack": "^5.26.3",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
